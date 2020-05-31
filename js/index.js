@@ -1,0 +1,56 @@
+var swiper = new Swiper('.swiper-container', {
+   effect: 'coverflow',
+   grabCursor: true,
+   centeredSlides: true,
+   slidesPerView: 'auto',
+   spaceBetween: 10,
+   coverflowEffect: {
+     rotate: 60,
+     stretch: 0,
+     depth: 100,
+
+     modifier: 1,
+     slideShadows : true,
+   },
+   pagination: {
+     el: '.swiper-pagination',
+   },
+ });
+ var switcher= document.querySelectorAll('.project .picker ul li') ;
+ var swipecontainer=document.querySelectorAll('.project .project-switcher .swiper-container') ;
+
+
+ switcher.forEach((l)=>{
+     var index=l.getAttribute('key') ;
+     l.addEventListener('click',()=>{
+       
+       swipecontainer.forEach(s=>{
+           s.classList.remove('project-current') ;
+       })
+       switcher.forEach(s=>{
+        s.classList.remove('active') ;
+    })
+      switcher[index-1].classList.add('active') ;
+       swipecontainer[index-1].classList.add('project-current')
+       
+     })
+ })
+ gsap.registerPlugin(ScrollToPlugin);
+var contact=document.querySelector('header .navbar ul li button').addEventListener("click"
+,(e)=>{
+  e.preventDefault() ;
+  gsap.to(window,{duration:1.5,scrollTo:{y:"#section6",offsetY:100,ease:Power3.inout}})
+  
+})
+var skill=document.querySelector('header .navbar ul .skillsection a').addEventListener("click"
+,(e)=>{
+  e.preventDefault() ;
+  gsap.to(window,{duration:1,scrollTo:{y:"#section3",offsetY:100}})
+  
+})
+var project=document.querySelector('header .navbar ul .projectsection a').addEventListener("click"
+,(e)=>{
+  e.preventDefault() ;
+  gsap.to(window,{duration:.5,scrollTo:{y:"#section2",offsetY:100}})
+  
+})
