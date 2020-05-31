@@ -552,6 +552,22 @@ footer .copyright ul .flt-right{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* mobile */
 
 
@@ -750,7 +766,7 @@ footer .copyright ul .flt-right{
     }
     section .about-wrapper .about-content {
         grid-column: 1/3;
-        height:auto;
+        height:auto!important;
         padding:1rem;
     }
     section .about-wrapper .imgBox img{
