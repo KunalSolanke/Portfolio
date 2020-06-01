@@ -537,6 +537,7 @@ footer .copyright ul .flt-right{
     float:right ;
 }
 footer .btn{
+<<<<<<< HEAD
     padding:.5rem 2rem;
 
     text-align:center;
@@ -546,6 +547,13 @@ footer .btn{
     border-radius:20px ;
 border:none ;
 outline:none ;}
+=======
+padding:1rem;
+text-align:center;
+background-color:var(--secondary);
+margin-bottom:2rem;
+border-radius:20px ;}
+>>>>>>> 0e048aafed6953cc7d7c0d05b67ec1f9d3a93a2d
 /* footer end */
 
 
@@ -587,6 +595,72 @@ outline:none ;}
 
 
 
+<<<<<<< HEAD
+=======
+
+.line1 .active{
+animation:line1 .5s ease-in ;}
+
+.line2 .active{
+animation:line2 .5s ease-in ;}
+
+.line3 .active{
+animation:line3 .5s ease-in ;}
+
+
+@keyframes line1{
+0%{
+transform:rotateZ(0deg);
+}
+10%{
+transform:rotateZ(-4deg) ;
+}
+90%{
+tramsform:rotateZ(49deg) ;}
+100%{
+tranform:rotateZ(45deg);
+}
+}
+
+
+
+
+@keyframes line3{
+0%{
+transform:rotateZ(0deg);
+}
+10%{
+transform:rotateZ(4deg) ;
+}
+90%{
+tramsform:rotateZ(-49deg) ;}
+100%{
+tranform:rotateZ(-45deg);
+}
+}
+
+
+@keyframes line2{
+0%{
+transform:tranlateX(0%) ;
+opacity:1 ;
+}
+10%{
+transform:translateX(5%);
+}
+90%{
+tramsform:translateX(-90%);}
+100%{
+tranform:translateX(-100%);
+;
+opacity:0 ;
+}
+}
+
+
+
+/* mobile */
+>>>>>>> 0e048aafed6953cc7d7c0d05b67ec1f9d3a93a2d
 
 
 
@@ -651,9 +725,16 @@ outline:none ;}
       top:0px ;
       left:0px;
       width:100% ;
+<<<<<<< HEAD
       height: 86vh;
       z-index:10000000000000000 ;
+=======
+      height: 100vh;
+      transition:all .5s ease-in ;
+>>>>>>> 0e048aafed6953cc7d7c0d05b67ec1f9d3a93a2d
     }
+    header .container .navbar .navigation-menu .active{
+    transform:translateX(0%) ;}
     header .container .navbar .burger{
         flex-basis:60% ;
         padding-top:3px;
@@ -1044,11 +1125,18 @@ outline:none ;}
       top:0px ;
       left:0px;
       width:100% ;
+<<<<<<< HEAD
       height: 86vh;
       z-index:10000000000000000 ;
       background-color: #5A5779;
       transition: all .5s ease-in ;
+=======
+      height: 100vh;
+      transition:all .5s ease-in ;
+>>>>>>> 0e048aafed6953cc7d7c0d05b67ec1f9d3a93a2d
     }
+header .container .navbar .navigation-menu .active{
+    transform:translateX(0%) ;}
     header .container .navbar .burger{
         flex-basis:60% ;
         padding-top:3px;
@@ -1287,6 +1375,7 @@ outline:none ;}
     /* footer end */
 
 }
+<<<<<<< HEAD
 
 
 
@@ -1374,3 +1463,5 @@ outline:none ;}
 
 
 
+=======
+>>>>>>> 0e048aafed6953cc7d7c0d05b67ec1f9d3a93a2d
