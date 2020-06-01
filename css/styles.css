@@ -533,6 +533,11 @@ footer .copyright ul li{
 footer .copyright ul .flt-right{
     float:right ;
 }
+footer .btn{
+padding:1rem;
+text-align:center;
+background-color:var(--secondary);
+margin-bottom:2rem;}
 /* footer end */
 
 
