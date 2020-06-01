@@ -1188,8 +1188,14 @@ header .container .navbar .navigation-menu .active{
     } */
     .skills .card{
         padding-top:1rem ;
-        padding:.3rem ;
+        padding:0rem ;
         flex-wrap: wrap;
+    }
+    .skills .card .imgBox{
+        flex-basis: 100%!important;
+    }
+    .skills .card .content{
+        flex-basis: 100%!important;
     }
     .skills .card .imgBox img{
          transform: scale(.6);
