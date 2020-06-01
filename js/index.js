@@ -107,16 +107,4 @@ var home=document.querySelector('header .navbar ul .home a').addEventListener("c
   
 })
 
-<<<<<<< HEAD
-=======
-var burger=document.querySelector(".burger-action") ;
-var lines=document.querySelctorAll(".burger-action div") ;
-var nav=document.querySelector(".navigation-menu");
-burger.addEventListner("click",()=>{
-lines.forEach(l=>{
-l.classList.toggle(".active") ;
-}
-nav.classList.toggle(".active") ;
-}) ;
->>>>>>> 0e048aafed6953cc7d7c0d05b67ec1f9d3a93a2d
 
