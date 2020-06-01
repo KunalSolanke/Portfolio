@@ -537,7 +537,6 @@ footer .copyright ul .flt-right{
     float:right ;
 }
 footer .btn{
-<<<<<<< HEAD
     padding:.5rem 2rem;
 
     text-align:center;
@@ -547,13 +546,7 @@ footer .btn{
     border-radius:20px ;
 border:none ;
 outline:none ;}
-=======
-padding:1rem;
-text-align:center;
-background-color:var(--secondary);
-margin-bottom:2rem;
-border-radius:20px ;}
->>>>>>> 0e048aafed6953cc7d7c0d05b67ec1f9d3a93a2d
+
 /* footer end */
 
 
@@ -595,8 +588,6 @@ border-radius:20px ;}
 
 
 
-<<<<<<< HEAD
-=======
 
 .line1 .active{
 animation:line1 .5s ease-in ;}
@@ -660,7 +651,6 @@ opacity:0 ;
 
 
 /* mobile */
->>>>>>> 0e048aafed6953cc7d7c0d05b67ec1f9d3a93a2d
 
 
 
@@ -725,13 +715,10 @@ opacity:0 ;
       top:0px ;
       left:0px;
       width:100% ;
-<<<<<<< HEAD
       height: 86vh;
       z-index:10000000000000000 ;
-=======
       height: 100vh;
       transition:all .5s ease-in ;
->>>>>>> 0e048aafed6953cc7d7c0d05b67ec1f9d3a93a2d
     }
     header .container .navbar .navigation-menu .active{
     transform:translateX(0%) ;}
@@ -1125,15 +1112,12 @@ opacity:0 ;
       top:0px ;
       left:0px;
       width:100% ;
-<<<<<<< HEAD
       height: 86vh;
       z-index:10000000000000000 ;
       background-color: #5A5779;
       transition: all .5s ease-in ;
-=======
       height: 100vh;
       transition:all .5s ease-in ;
->>>>>>> 0e048aafed6953cc7d7c0d05b67ec1f9d3a93a2d
     }
 header .container .navbar .navigation-menu .active{
     transform:translateX(0%) ;}
@@ -1375,7 +1359,6 @@ header .container .navbar .navigation-menu .active{
     /* footer end */
 
 }
-<<<<<<< HEAD
 
 
 
@@ -1463,5 +1446,3 @@ header .container .navbar .navigation-menu .active{
 
 
 
-=======
->>>>>>> 0e048aafed6953cc7d7c0d05b67ec1f9d3a93a2d
