@@ -54,3 +54,14 @@ var project=document.querySelector('header .navbar ul .projectsection a').addEve
   gsap.to(window,{duration:.5,scrollTo:{y:"#section2",offsetY:100}})
   
 })
+
+var burger=document.querySelector(".burger-action") ;
+var lines=document.querySelctorAll(".burger-action div") ;
+var nav=document.querySelector(".navigation-menu");
+burger.addEventListner("click",()=>{
+lines.forEach(l=>{
+l.classList.toggle(".active") ;
+}
+nav.classList.toggle(".active") ;
+}) ;
+
