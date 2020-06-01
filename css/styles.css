@@ -1017,6 +1017,34 @@ outline:none ;}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* mobile */
 
 
@@ -1196,7 +1224,7 @@ header .container .navbar .navigation-menu .active{
     }
     .project .picker ul li {
         
-        width:100px ;
+        width:80px ;
         margin-bottom:1rem ;
         height:3rem ;
         padding:1rem ;
