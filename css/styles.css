@@ -1002,7 +1002,7 @@ outline:none ;}
 
  .nav-active{
         transform:translateX(0%) !important;
-         z-index:10000000000000;
+         z-index:10000000000000!important;
 }
 
 
