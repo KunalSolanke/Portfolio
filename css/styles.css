@@ -35,6 +35,8 @@ body{
 /*header section */
 
 /*nav */
+a{
+text-decoration:none;}
 header{
     padding:.5rem ;
     position: relative;
