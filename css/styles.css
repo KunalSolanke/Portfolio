@@ -37,7 +37,6 @@ body{
 /*nav */
 header{
     padding:.5rem ;
-    position: relative;
     height:auto ;
     width:100vw ;
     background-color:var(--header) ;
@@ -631,7 +630,7 @@ outline:none ;}
    
     header{
        overflow-x: hidden;
-        position: relative;
+        
         height:auto ;
         width:100% ;
         min-width: 100vw;
@@ -646,7 +645,7 @@ outline:none ;}
   
     header .container .navbar .navigation-menu{
        transform: translateX(-100%);
-        margin-top:10vh ;
+        margin-top:14vh ;
       position:absolute ;
       top:0px ;
       left:0px;
@@ -685,6 +684,7 @@ outline:none ;}
         display:flex;
         flex-direction: column;
         justify-content: space-between;
+        padding: 2rem;
         align-items: center;
     }
     header .container .navbar .navigation-menu ul li{
