@@ -456,7 +456,12 @@ footer .social-media div ul li{
     list-style: none;
     background-color:var(--secondary-color);
 }
-footer .social-media div ul li i{
+footer .social-media div ul li a{
+text-decorationn: none ;
+color:white ;
+}
+
+footer .social-media div ul li a i{
     text-align: center;
 }
 footer hr{
